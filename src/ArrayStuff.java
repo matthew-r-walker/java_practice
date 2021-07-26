@@ -2,7 +2,6 @@ import java.util.Arrays;
 
 public class ArrayStuff {
 
-    // find the missing number in the array of "1-50"
     public static void main(String[] args) {
         Integer[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
                 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
@@ -10,6 +9,7 @@ public class ArrayStuff {
                 31, 32, 33, 34, 35, 36, 37, 38, 39,
                 40, 41, 42, 43, 45, 46, 47, 48, 49, 50};
 
+        // find the missing number in the array nums of "1-50"
         for(int i = 0; i <= nums.length; ++i) {
             if (i + 1 != nums[i]) {
                 System.out.println(i + 1);
