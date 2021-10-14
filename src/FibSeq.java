@@ -16,7 +16,7 @@ public class FibSeq {
     }
     public static void main(String[] args) {
 //        int test = 10;
-        Fibonacci(5);
+        fibonacci(5);
         System.out.println();
     }
 
